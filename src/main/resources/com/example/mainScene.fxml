@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.MainController">
+   <children>
+      <Button layoutX="269.0" layoutY="361.0" mnemonicParsing="false" text="Button" />
+      <TableView fx:id="empTable" layoutX="57.0" layoutY="14.0" prefHeight="335.0" prefWidth="483.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="nameCol" prefWidth="147.0" text="Név" />
+            <TableColumn fx:id="cityCol" prefWidth="147.0" text="Település" />
+            <TableColumn fx:id="salaryCol" prefWidth="102.0" text="Fizetés" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
